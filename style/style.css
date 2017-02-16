@@ -1,0 +1,17 @@
+#game_container{
+	text-align: center;
+}
+#game_container > div{
+	display: inline-block;
+}
+#click_container{
+	text-align: center;
+}
+#click_container > div{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.inline_container div{
+	display: inline-block;
+}

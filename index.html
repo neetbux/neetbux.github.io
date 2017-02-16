@@ -1,0 +1,62 @@
+<head>
+<script src="/js/jquery.js"></script>
+<script src="/js/index.js"></script>
+<link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+	<div id="game_container">
+		<div id="store_container">
+			<div id="store_title_container">
+				<div id="store_title" class="title">Store</div>
+				<div id="store_description" class="description">Spend your hard earned NeetBux here!</div>
+			</div>
+			<div id="store_body">
+				<div id="tendies_store_container">
+					<div id="tendies_store_title_container" class="store item title container tendies">
+						<div id="tendies_store_title">Tendies</div>
+						<div id="tendies_store_price">1 NBX</div>
+					</div>
+					<img id="tendies_store_image" class="store item image tendies" src="/res/tendies.jpg">
+					<div id="tendies_store_description" class="store item description tendies">Delcious tendies to fill your belly</div>
+					<form id="tendies_buy_form" class="buy_form">
+						<input type="button" value="Buy" name="submit" id="tendies_buy_button" class="item buy tendies">
+						<input type="hidden" value="tendies" name="item_name" id="tendies_item_name">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="click_container">
+			<div id="click_stats_container">
+				<div id="nbx_count_container" class="inline_container">
+					<div id="nbx_count_title">NeetBux: </div>
+					<div id="nbx_count_value">0</div>
+				</div>
+			</div>
+			<div id="click_coin_container">
+				<img src="/res/gold_coin_250px.png" id="click_coin" />
+			</div>
+		</div>
+		<div id="me_container">
+			<div id="me_title">You</div>
+			<div id="me_stats_container">
+				<div id="me_stats_title">Your Stats</div>
+				<div id="me_status">Status: Alive and Well</div>
+				<div id="hunger_container" class="inline_container">
+					<div id="hunger_title">Hunger: </div>
+					<div id="hunger_value">0.5</div>
+					<div id="hunger_units"> tendies/second</div>
+				</div>
+			</div>
+			<div id="stuff_container">
+				<div id="stuff_title">Your Stuff</div>
+				<div id="stuff_body">
+					<div id="tendies_stuff_container" class="stuff item container tendies">
+						<img id="tendies_stuff_image" class="stuff item image tendies" src="/res/tendies.jpg">
+						<div id="tendies_stuff_description" class="stuff item description tendies">Delcious tendies to fill your belly</div>
+						<div id="tendies_stuff_count" class="stuff item count tendies">0</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
